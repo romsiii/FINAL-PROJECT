@@ -125,10 +125,9 @@ yr_level = c.create_entry(frame2, 'black', 'white',1, 'Sitka Text', 11, 350, 140
 program = c.create_entry(frame2, 'black', 'white',1, 'Sitka Text', 11, 510, 140, 130, 20)
 
 #BUTTONS
-compute = c.create_button(frame2, 5, 'Compute', '#c3c3c3', 'white', 'hand2', 1, 'Sitka Text', 8, 170, 200, 100, 25, Open_Computation)
-viewgrade = c.create_button(frame2, 5, 'View Grade', 'white', 'black', 'hand2', 1,'Sitka Text', 8, 280, 200, 100, 25, View_Grade)
+compute = c.create_button(frame2, 5, 'Compute', '#c3c3c3', 'black', 'hand2', 1, 'Sitka Text', 8, 170, 200, 100, 25, Open_Computation)
+viewgrade = c.create_button(frame2, 5, 'View Grade', '#c3c3c3', 'black', 'hand2', 1,'Sitka Text', 8, 280, 200, 100, 25, View_Grade)
 logout = c.create_button(frame2, 5, 'Logout', '#D8D8D8', 'black', 'hand2', 1,'Sitka Text', 8, 390, 200, 100, 25, LogOut)
-#info = c.create_button(frame2, 5, 'View Info', 'white', 'black', 'hand2', 1,'Sitka Text', 8, 500, 200, 100, 25, View_Info)
 
 stud_number.insert(0,t2[0])
 View_Info()
