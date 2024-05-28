@@ -70,7 +70,7 @@ class contents:
         self.label_pic = Label(container, image=self.background, width=width, height=height)
         self.label_pic.place(x=x, y=y)
 
-    def create_profile_pic(self, container, width, height, x, y, relw, relh):
+    def create_label_pic2(self, container, width, height, x, y, relw, relh):
         self.image = Image.open('C:\\Users\\Romer\\Desktop\\OneDrive_2024-05-27\\FINAL PROJECT\\BACKGROUND2.jpg')
         self.image = self.image.resize((1920, 1280))
         self.background = ImageTk.PhotoImage(self.image)
