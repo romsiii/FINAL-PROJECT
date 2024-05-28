@@ -356,6 +356,6 @@ home_button = c.create_button(frame1, 0.5, "Home", 'light blue', 'black', 'arrow
 student_number_entry.insert(0, t2[0])
 student_number_entry.config(state='readonly')
 
-#kalbo si marc
+
 
 c.window.mainloop()
