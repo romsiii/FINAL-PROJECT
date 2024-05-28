@@ -148,11 +148,11 @@ save = d.create_button(frame0, 1, 'Save', 'sky blue', 'black', 'hand2', 1, 'Sitk
                               1050, 735, 125, 30, Save)
 # first column ==============================================================================================================================
 #activity label
-activity = d.create_label(frame1, 'ACTIVITY', 'black', 'grey', 'Sitka Text', 20, 'bold', 55, 10)
-activity1 = d.create_label(frame1, 'Activity 1: /20', 'black', 'grey', 'Sitka Text', 12, 'bold', 20, 70)
-activity2 = d.create_label(frame1, 'Activity 2: /20', 'black', 'grey', 'Sitka Text', 12, 'bold', 20, 100)
-activity3 = d.create_label(frame1, 'Activity 3: /20', 'black', 'grey', 'Sitka Text', 12, 'bold', 20, 130)
-total_activity = d.create_label(frame1, 'Total Score :', 'black', 'grey', 'Sitka Text', 12, 'bold', 20, 160)
+activity = d.create_label(frame1, 'ACTIVITY', 'black', 'sky blue', 'Sitka Text', 20, 'bold', 55, 10)
+activity1 = d.create_label(frame1, 'Activity 1: /20', 'black', 'sky blue', 'Sitka Text', 12, 'bold', 20, 70)
+activity2 = d.create_label(frame1, 'Activity 2: /20', 'black', 'sky blue', 'Sitka Text', 12, 'bold', 20, 100)
+activity3 = d.create_label(frame1, 'Activity 3: /20', 'black', 'sky blue', 'Sitka Text', 12, 'bold', 20, 130)
+total_activity = d.create_label(frame1, 'Total Score :', 'black', 'sky blue', 'Sitka Text', 12, 'bold', 20, 160)
 
 # activity entries
 prelim_act1 = d.create_entry(frame1, 'black', 'white', 1, 'Sitka Text', 12, 155, 75, 80, 20)
@@ -160,11 +160,11 @@ prelim_act2 = d.create_entry(frame1, 'black', 'white', 1, 'Sitka Text', 12, 155,
 prelim_act3 = d.create_entry(frame1, 'black', 'white', 1, 'Sitka Text', 12, 155, 135, 80, 20)
 prelim_total_activity = d.create_entry(frame1, 'black', 'white', 1, 'Sitka Text', 12, 155, 165, 80, 20)
 # quizes label
-Quiz = d.create_label(frame1, 'QUIZZES', 'black', 'grey', 'Sitka Text', 20, 'bold', 55, 200)
-Quiz1 = d.create_label(frame1, 'Quiz 1: /50', 'black', 'grey', 'Sitka Text', 12, 'bold', 20, 250)
-Quiz2 = d.create_label(frame1, 'Quiz 2: /50', 'black', 'grey', 'Sitka Text', 12, 'bold', 20, 280)
-Quiz3 = d.create_label(frame1, 'Quiz 3: /50', 'black', 'grey', 'Sitka Text', 12, 'bold', 20, 310)
-total_quiz = d.create_label(frame1, 'Total Score :', 'black', 'grey', 'Sitka Text', 12, 'bold', 20, 340)
+Quiz = d.create_label(frame1, 'QUIZZES', 'black', 'sky blue', 'Sitka Text', 20, 'bold', 55, 200)
+Quiz1 = d.create_label(frame1, 'Quiz 1: /50', 'black', 'sky blue', 'Sitka Text', 12, 'bold', 20, 250)
+Quiz2 = d.create_label(frame1, 'Quiz 2: /50', 'black', 'sky blue', 'Sitka Text', 12, 'bold', 20, 280)
+Quiz3 = d.create_label(frame1, 'Quiz 3: /50', 'black', 'sky blue', 'Sitka Text', 12, 'bold', 20, 310)
+total_quiz = d.create_label(frame1, 'Total Score :', 'black', 'sky blue', 'Sitka Text', 12, 'bold', 20, 340)
 
 # Quiz entries
 prelim_quiz1 = d.create_entry(frame1, 'black', 'white', 1, 'Sitka Text', 12, 155, 255, 80, 20)
@@ -173,28 +173,28 @@ prelim_quiz3 = d.create_entry(frame1, 'black', 'white', 1, 'Sitka Text', 12, 155
 prelim_total_Quiz = d.create_entry(frame1, 'black', 'white', 1, 'Sitka Text', 12, 155, 345, 80, 20)
 
 # exam
-prelim = d.create_label(frame1, 'Prelim exam: ', 'black', 'grey', 'Sitka Text', 12, 'bold', 20, 390)
+prelim = d.create_label(frame1, 'Prelim exam: ', 'black', 'sky blue', 'Sitka Text', 12, 'bold', 20, 390)
 prelim_exam = d.create_entry(frame1, 'black', 'white', 1, 'Sitka Text', 12, 155, 395, 80, 20)
 
 # attendance
-attendance = d.create_label(frame1, 'Attendance: ', 'black', 'grey', 'Sitka Text', 12, 'bold', 20, 430)
+attendance = d.create_label(frame1, 'Attendance: ', 'black', 'sky blue', 'Sitka Text', 12, 'bold', 20, 430)
 prelim_attendance_total = d.create_entry(frame1, 'black', 'white', 1, 'Sitka Text', 12, 155, 435, 80, 20)
 
 #button
 compute = d.create_button(frame1, 1, 'Compute Prelim', 'sky blue', 'black', 'hand2', 1, 'Sitka Text', 10,
                           20, 550, 125, 30, Prelim)
 
-grade = d.create_label(frame1, 'Prelim Grade:', 'black', 'grey', 'Sitka Text', 12, 'bold', 20, 470)
+grade = d.create_label(frame1, 'Prelim Grade:', 'black', 'sky blue', 'Sitka Text', 12, 'bold', 20, 470)
 prelim_grade = d.create_entry(frame1, 'black', 'white', 1, 'Sitka Text', 12, 155, 475, 80, 20)
 
 # second column ==============================================================================================================================
 
 #activity label
-activity = d.create_label(frame2, 'ACTIVITY', 'black', 'grey', 'Sitka Text', 20, 'bold', 55, 10)
-activity1 = d.create_label(frame2, 'Activity 1: /20', 'black', 'grey', 'Sitka Text', 12, 'bold', 20, 70)
-activity2 = d.create_label(frame2, 'Activity 2: /20', 'black', 'grey', 'Sitka Text', 12, 'bold', 20, 100)
-activity3 = d.create_label(frame2, 'Activity 3: /20', 'black', 'grey', 'Sitka Text', 12, 'bold', 20, 130)
-total_activity = d.create_label(frame2, 'Total Score :', 'black', 'grey', 'Sitka Text', 12, 'bold', 20, 160)
+activity = d.create_label(frame2, 'ACTIVITY', 'black', 'sky blue', 'Sitka Text', 20, 'bold', 55, 10)
+activity1 = d.create_label(frame2, 'Activity 1: /20', 'black', 'sky blue', 'Sitka Text', 12, 'bold', 20, 70)
+activity2 = d.create_label(frame2, 'Activity 2: /20', 'black', 'sky blue', 'Sitka Text', 12, 'bold', 20, 100)
+activity3 = d.create_label(frame2, 'Activity 3: /20', 'black', 'sky blue', 'Sitka Text', 12, 'bold', 20, 130)
+total_activity = d.create_label(frame2, 'Total Score :', 'black', 'sky blue', 'Sitka Text', 12, 'bold', 20, 160)
 
 # activity entries
 midterm_act1 = d.create_entry(frame2, 'black', 'white', 1, 'Sitka Text', 12, 155, 75, 80, 20)
@@ -202,11 +202,11 @@ midterm_act2 = d.create_entry(frame2, 'black', 'white', 1, 'Sitka Text', 12, 155
 midterm_act3 = d.create_entry(frame2, 'black', 'white', 1, 'Sitka Text', 12, 155, 135, 80, 20)
 midterm_total_activity = d.create_entry(frame2, 'black', 'white', 1, 'Sitka Text', 12, 155, 165, 80, 20)
 # quizes label
-Quiz = d.create_label(frame2, 'QUIZZES', 'black', 'grey', 'Sitka Text', 20, 'bold', 55, 200)
-Quiz1 = d.create_label(frame2, 'Quiz 1: /50', 'black', 'grey', 'Sitka Text', 12, 'bold', 20, 250)
-Quiz2 = d.create_label(frame2, 'Quiz 2: /50', 'black', 'grey', 'Sitka Text', 12, 'bold', 20, 280)
-Quiz3 = d.create_label(frame2, 'Quiz 3: /50', 'black', 'grey', 'Sitka Text', 12, 'bold', 20, 310)
-total_quiz = d.create_label(frame2, 'Total Score :', 'black', 'grey', 'Sitka Text', 12, 'bold', 20, 340)
+Quiz = d.create_label(frame2, 'QUIZZES', 'black', 'sky blue', 'Sitka Text', 20, 'bold', 55, 200)
+Quiz1 = d.create_label(frame2, 'Quiz 1: /50', 'black', 'sky blue', 'Sitka Text', 12, 'bold', 20, 250)
+Quiz2 = d.create_label(frame2, 'Quiz 2: /50', 'black', 'sky blue', 'Sitka Text', 12, 'bold', 20, 280)
+Quiz3 = d.create_label(frame2, 'Quiz 3: /50', 'black', 'sky blue', 'Sitka Text', 12, 'bold', 20, 310)
+total_quiz = d.create_label(frame2, 'Total Score :', 'black', 'sky blue', 'Sitka Text', 12, 'bold', 20, 340)
 
 # Quiz entries
 midterm_quiz1 = d.create_entry(frame2, 'black', 'white', 1, 'Sitka Text', 12, 155, 255, 80, 20)
@@ -215,28 +215,28 @@ midterm_quiz3 = d.create_entry(frame2, 'black', 'white', 1, 'Sitka Text', 12, 15
 midterm_total_Quiz = d.create_entry(frame2, 'black', 'white', 1, 'Sitka Text', 12, 155, 345, 80, 20)
 
 # exam
-prelim = d.create_label(frame2, 'Midterm exam: ', 'black', 'grey', 'Sitka Text', 12, 'bold', 20, 390)
+prelim = d.create_label(frame2, 'Midterm exam: ', 'black', 'sky blue', 'Sitka Text', 12, 'bold', 20, 390)
 midterm_exam = d.create_entry(frame2, 'black', 'white', 1, 'Sitka Text', 12, 155,395, 80, 20)
 
 # attendance
-attendance = d.create_label(frame2, 'Attendance: ', 'black', 'grey', 'Sitka Text', 12, 'bold', 20, 430)
+attendance = d.create_label(frame2, 'Attendance: ', 'black', 'sky blue', 'Sitka Text', 12, 'bold', 20, 430)
 midterm_attendance_total = d.create_entry(frame2, 'black', 'white', 1, 'Sitka Text', 12, 155, 435, 80, 20)
 
 #button
 compute = d.create_button(frame2, 1, 'Compute Midterm', 'sky blue', 'black', 'hand2', 1, 'Sitka Text', 10,
                           20, 550, 125, 30, Midterm)
 
-grade = d.create_label(frame2, 'Midterm Grade:', 'black', 'grey', 'Sitka Text', 12, 'bold', 20, 470)
+grade = d.create_label(frame2, 'Midterm Grade:', 'black', 'sky blue', 'Sitka Text', 12, 'bold', 20, 470)
 midterm_grade = d.create_entry(frame2, 'black', 'white', 1, 'Sitka Text', 12, 155, 475, 80, 20)
 
 # third column ==============================================================================================================================
 
 #activity label
-activity = d.create_label(frame3, 'ACTIVITY', 'black', 'grey', 'Sitka Text', 20, 'bold', 55, 10)
-activity1 = d.create_label(frame3, 'Activity 1: /20', 'black', 'grey', 'Sitka Text', 12, 'bold', 20, 70)
-activity2 = d.create_label(frame3, 'Activity 2: /20', 'black', 'grey', 'Sitka Text', 12, 'bold', 20, 100)
-activity3 = d.create_label(frame3, 'Activity 3: /20', 'black', 'grey', 'Sitka Text', 12, 'bold', 20, 130)
-total_activity = d.create_label(frame3, 'Total Score :', 'black', 'grey', 'Sitka Text', 12, 'bold', 20, 160)
+activity = d.create_label(frame3, 'ACTIVITY', 'black', 'sky blue', 'Sitka Text', 20, 'bold', 55, 10)
+activity1 = d.create_label(frame3, 'Activity 1: /20', 'black', 'sky blue', 'Sitka Text', 12, 'bold', 20, 70)
+activity2 = d.create_label(frame3, 'Activity 2: /20', 'black', 'sky blue', 'Sitka Text', 12, 'bold', 20, 100)
+activity3 = d.create_label(frame3, 'Activity 3: /20', 'black', 'sky blue', 'Sitka Text', 12, 'bold', 20, 130)
+total_activity = d.create_label(frame3, 'Total Score :', 'black', 'sky blue', 'Sitka Text', 12, 'bold', 20, 160)
 
 # activity entries
 final_act1 = d.create_entry(frame3, 'black', 'white', 1, 'Sitka Text', 12, 155, 75, 80, 20)
@@ -244,11 +244,11 @@ final_act2 = d.create_entry(frame3, 'black', 'white', 1, 'Sitka Text', 12, 155, 
 final_act3 = d.create_entry(frame3, 'black', 'white', 1, 'Sitka Text', 12, 155, 135, 80, 20)
 final_total_activity = d.create_entry(frame3, 'black', 'white', 1, 'Sitka Text', 12, 155, 165, 80, 20)
 # quizes label
-Quiz = d.create_label(frame3, 'QUIZZES', 'black', 'grey', 'Sitka Text', 20, 'bold', 55, 200)
-Quiz1 = d.create_label(frame3, 'Quiz 1: /50', 'black', 'grey', 'Sitka Text', 12, 'bold', 20, 250)
-Quiz2 = d.create_label(frame3, 'Quiz 2: /50', 'black', 'grey', 'Sitka Text', 12, 'bold', 20, 280)
-Quiz3 = d.create_label(frame3, 'Quiz 3: /50', 'black', 'grey', 'Sitka Text', 12, 'bold', 20, 310)
-total_quiz = d.create_label(frame3, 'Total Score :', 'black', 'grey', 'Sitka Text', 12, 'bold', 20, 340)
+Quiz = d.create_label(frame3, 'QUIZZES', 'black', 'sky blue', 'Sitka Text', 20, 'bold', 55, 200)
+Quiz1 = d.create_label(frame3, 'Quiz 1: /50', 'black', 'sky blue', 'Sitka Text', 12, 'bold', 20, 250)
+Quiz2 = d.create_label(frame3, 'Quiz 2: /50', 'black', 'sky blue', 'Sitka Text', 12, 'bold', 20, 280)
+Quiz3 = d.create_label(frame3, 'Quiz 3: /50', 'black', 'sky blue', 'Sitka Text', 12, 'bold', 20, 310)
+total_quiz = d.create_label(frame3, 'Total Score :', 'black', 'sky blue', 'Sitka Text', 12, 'bold', 20, 340)
 
 # Quiz entries
 final_quiz1 = d.create_entry(frame3, 'black', 'white', 1, 'Sitka Text', 12, 155, 255, 80, 20)
@@ -257,21 +257,21 @@ final_quiz3 = d.create_entry(frame3, 'black', 'white', 1, 'Sitka Text', 12, 155,
 final_total_Quiz = d.create_entry(frame3, 'black', 'white', 1, 'Sitka Text', 12, 155, 345, 80, 20)
 
 # exam
-prelim = d.create_label(frame3, 'Final exam: ', 'black', 'grey', 'Sitka Text', 12, 'bold', 20, 390)
+prelim = d.create_label(frame3, 'Final exam: ', 'black', 'sky blue', 'Sitka Text', 12, 'bold', 20, 390)
 final_exam = d.create_entry(frame3, 'black', 'white', 1, 'Sitka Text', 12, 155, 395, 80, 20)
 
 # attendance
-attendance = d.create_label(frame3, 'Attendance:  ', 'black', 'grey', 'Sitka Text', 12, 'bold', 20, 430)
+attendance = d.create_label(frame3, 'Attendance:  ', 'black', 'sky blue', 'Sitka Text', 12, 'bold', 20, 430)
 final_attendance_total = d.create_entry(frame3, 'black', 'white', 1, 'Sitka Text', 12, 155, 435, 80, 20)
 
 #button
 compute = d.create_button(frame3, 1, 'Compute Finals', 'sky blue', 'black', 'hand2', 1, 'Sitka Text', 10,
                           20, 550, 125, 30, Final)
 
-grade = d.create_label(frame3, 'Final Grade:', 'black', 'grey', 'Sitka Text', 12, 'bold', 20, 470)
+grade = d.create_label(frame3, 'Final Grade:', 'black', 'sky blue', 'Sitka Text', 12, 'bold', 20, 470)
 final_grade = d.create_entry(frame3, 'black', 'white', 1, 'Sitka Text', 12, 155, 475, 80, 20)
 
-student_numberlbl = d.create_label(frame0, 'Student Number:', 'black', 'grey', 'Sitka Text', 12, 'bold', 650, 735)
+student_numberlbl = d.create_label(frame0, 'Student Number:', 'black', 'sky blue', 'Sitka Text', 12, 'bold', 650, 735)
 student_numbertxt = d.create_entry(frame0, 'black', 'white', 1, 'Sitka Text', 12, 800, 735, 200, 30)
 
 student_numbertxt.insert(0, t2[0])
