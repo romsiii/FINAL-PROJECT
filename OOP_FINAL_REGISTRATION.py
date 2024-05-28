@@ -122,10 +122,10 @@ c = OOP_FINAL_CLASS.contents()
 main_frame = c.create_canvas(0,0)
 
 #Make Frames
-frame0 = c.create_frames(main_frame, 0, 0, 1920, 1100, '#D8D8D8')
-frame1 = c.create_frames(main_frame, 170, 90, 1095, 285, 'gray')
-frame2 = c.create_frames(main_frame, 170, 400, 1095, 275, 'gray')
-frame3 = c.create_frames(main_frame, 170, 710, 1095, 275, 'gray')
+frame0 = c.create_frames(main_frame, 0, 0, 1920, 1100, 'beige')
+frame1 = c.create_frames(main_frame, 170, 90, 1095, 285, 'beige')
+frame2 = c.create_frames(main_frame, 170, 400, 1095, 275, 'beige')
+frame3 = c.create_frames(main_frame, 170, 710, 1095, 275, 'beige')
 
 
 #insert profile pic
