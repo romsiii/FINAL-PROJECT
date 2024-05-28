@@ -4,11 +4,13 @@ import tkinter as tk
 from tkinter import messagebox
 import subprocess
 
+# pogi ni marc
+
 con = sqlite3.connect("C:\\Users\\Romer\\Desktop\\OneDrive_2024-05-27\\FINAL PROJECT\\Final_Project")
 cursor = con.cursor()
 
 # -----------------------------------------------------------------------------------------------------------------------------------------------------------
-#
+#                                                           JEM NASUS MOMENT
 # -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 def LogIn():
