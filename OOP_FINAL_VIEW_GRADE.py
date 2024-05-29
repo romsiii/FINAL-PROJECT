@@ -283,6 +283,7 @@ def Go_Compute():
     c.window.destroy()
     subprocess.run(["python", "OOP_FINAL_MAIN_MENU.py"], input= t1, text=True, shell = True)
 # -----------------------------------------------------------------------------------------------------------------------------------------------------------
+#View Grades
 
 #Make main frame
 main_frame = c.create_canvas(0,0)
