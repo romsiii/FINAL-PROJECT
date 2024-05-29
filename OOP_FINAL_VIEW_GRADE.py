@@ -10,7 +10,7 @@ from PIL import Image, ImageTk
 import ast
 import subprocess
 
-
+#Function
 c = OOP_FINAL_CLASS.contents()
 con = sqlite3.connect("C:\\Users\\Romer\\Desktop\\OneDrive_2024-05-27\\FINAL PROJECT\\Final_Project")
 cursor = con.cursor()
@@ -283,6 +283,7 @@ def Go_Compute():
     c.window.destroy()
     subprocess.run(["python", "OOP_FINAL_MAIN_MENU.py"], input= t1, text=True, shell = True)
 # -----------------------------------------------------------------------------------------------------------------------------------------------------------
+#Fermin, Carlos Johan
 #View Grades
 
 #Make main frame
