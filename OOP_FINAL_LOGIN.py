@@ -64,8 +64,8 @@ stud_numbertxt = c.create_entry(frame1,'black', 'white',1, 'Sitka Text', 11, 50,
 password_entrytxt = c.create_entry_hidden(frame1,'black', 'white',1, 'Sitka Text', 11, 50, 190, 250, 40, '*')
 
 #BUTTONS
-login_button = c.create_button(frame1, 12, 'Login', 'navy blue', 'black', 'hand2', 1, 'Sitka Text', 8, 65, 250, 100, 40, LogIn)
-register_button = c.create_button(frame1, 12, 'Register', '#D8D8D8', 'red', 'hand2', 1, 'Sitka Text', 8, 185, 250, 100, 40, Open_register)
+login_button = c.create_button(frame1, 12, 'Login', 'yellow', 'black', 'hand2', 1, 'Sitka Text', 8, 65, 250, 100, 40, LogIn)
+register_button = c.create_button(frame1, 12, 'Register', '#D8D8D8', 'orange', 'hand2', 1, 'Sitka Text', 8, 185, 250, 100, 40, Open_register)
 
 
 c.window.mainloop()
