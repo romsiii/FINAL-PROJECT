@@ -1,4 +1,4 @@
-import OOP_FINAL_CLASS
+gimport OOP_FINAL_CLASS
 import tkinter as tk
 import sqlite3
 import tkinter.filedialog
@@ -10,7 +10,7 @@ from PIL import Image, ImageTk
 import ast
 import subprocess
 
-
+#function
 c = OOP_FINAL_CLASS.contents()
 con = sqlite3.connect("C:\\Users\\Romer\\Desktop\\OneDrive_2024-05-27\\FINAL PROJECT\\Final_Project")
 cursor = con.cursor()
@@ -283,6 +283,8 @@ def Go_Compute():
     c.window.destroy()
     subprocess.run(["python", "OOP_FINAL_MAIN_MENU.py"], input= t1, text=True, shell = True)
 # -----------------------------------------------------------------------------------------------------------------------------------------------------------
+#Fermin, Carlos Johan
+#View Grades
 
 #Make main frame
 main_frame = c.create_canvas(0,0)
@@ -349,13 +351,12 @@ student_number_label = c.create_label(frame1, "Student Number:", 'white', 'gray'
 student_number_entry = c.create_entry(frame1, 'black', 'light gray', '1', 'Sitka Text', 20, 445, 40, 220, 50)
 
 #buttons
-insert_button = c.create_button(frame1, 0.5, "Get grades", 'light blue', 'black', 'arrow', '1', "Sitka text", 12, 180, 470, 150, 50, Get_grades)
-convert_button = c.create_button(frame1, 0.5, "Convert grades", 'light blue', 'black', 'arrow', '1', "Sitka text", 12, 345, 470, 150, 50, Convert)
+insert_button = c.create_button(frame1, 0.5, "Get grades", 'yellow', 'black', 'arrow', '1', "Sitka text", 12, 180, 470, 150, 50, Get_grades)
+convert_button = c.create_button(frame1, 0.5, "Convert grades", 'green', 'black', 'arrow', '1', "Sitka text", 12, 345, 470, 150, 50, Convert)
 home_button = c.create_button(frame1, 0.5, "Home", 'light blue', 'black', 'arrow', '1', "Sitka text", 12, 510, 470, 150, 50, Go_Compute)
 
 student_number_entry.insert(0, t2[0])
 student_number_entry.config(state='readonly')
 
-#Fermin
 
 c.window.mainloop()
