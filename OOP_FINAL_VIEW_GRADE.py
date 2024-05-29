@@ -1,4 +1,4 @@
-gimport OOP_FINAL_CLASS
+import OOP_FINAL_CLASS
 import tkinter as tk
 import sqlite3
 import tkinter.filedialog
