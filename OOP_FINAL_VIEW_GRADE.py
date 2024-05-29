@@ -1,4 +1,4 @@
-import OOP_FINAL_CLASS
+gimport OOP_FINAL_CLASS
 import tkinter as tk
 import sqlite3
 import tkinter.filedialog
@@ -10,7 +10,7 @@ from PIL import Image, ImageTk
 import ast
 import subprocess
 
-
+#Function
 c = OOP_FINAL_CLASS.contents()
 con = sqlite3.connect("C:\\Users\\Romer\\Desktop\\OneDrive_2024-05-27\\FINAL PROJECT\\Final_Project")
 cursor = con.cursor()
