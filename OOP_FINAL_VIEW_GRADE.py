@@ -351,9 +351,9 @@ student_number_label = c.create_label(frame1, "Student Number:", 'white', 'gray'
 student_number_entry = c.create_entry(frame1, 'black', 'light gray', '1', 'Sitka Text', 20, 445, 40, 220, 50)
 
 #buttons
-insert_button = c.create_button(frame1, 0.5, "Get grades", 'yellow', 'black', 'arrow', '1', "Sitka text", 12, 180, 470, 150, 50, Get_grades)
+insert_button = c.create_button(frame1, 0.5, "Get grades", 'blue', 'white', 'arrow', '1', "Sitka text", 12, 180, 470, 150, 50, Get_grades)
 convert_button = c.create_button(frame1, 0.5, "Convert grades", 'green', 'black', 'arrow', '1', "Sitka text", 12, 345, 470, 150, 50, Convert)
-home_button = c.create_button(frame1, 0.5, "Home", 'light blue', 'black', 'arrow', '1', "Sitka text", 12, 510, 470, 150, 50, Go_Compute)
+home_button = c.create_button(frame1, 0.5, "Home", 'yellow', 'black', 'arrow', '1', "Sitka text", 12, 510, 470, 150, 50, Go_Compute)
 
 student_number_entry.insert(0, t2[0])
 student_number_entry.config(state='readonly')
