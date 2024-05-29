@@ -20,7 +20,7 @@ t1 = input()
 t2 = ast.literal_eval(t1)
 
 def Get_grades():
-    # GET EMPLOYEE DATA
+    # GET STUDENTS DATA
     student_number = student_number_entry.get()
     print(student_number)
     cursor.execute(f"SELECT * FROM student_grades WHERE student_number = {student_number}")
@@ -358,5 +358,5 @@ home_button = c.create_button(frame1, 0.5, "Home", 'light blue', 'black', 'arrow
 student_number_entry.insert(0, t2[0])
 student_number_entry.config(state='readonly')
 
-
+#End of View Grades
 c.window.mainloop()
